@@ -398,4 +398,3 @@ FodyWeavers.xsd
 *.sln.iml
 
 **/appsettings.json
-src/TaskMaster.Cli/appsettings.json
