@@ -1,0 +1,128 @@
+{
+  "RootInstanceId": "4ea7fa1c-0408-4dfd-aaeb-888e6b257512",
+  "WorkItemTemplates": [
+    {
+      "Id": "3eb8649c-8ed3-44cc-8e45-167d1e7545ea",
+      "WorkItem": {
+        "Title": "🏗 Test Feature 2024-10-25",
+        "Type": "Feature",
+        "TeamProject": "GMFinancial",
+        "AreaPath": "GMFinancial\\Insurance-OSI\\OSI-Architecture",
+        "IterationPath": "GMFinancial\\OSI\\2024",
+        "AssignedTo": "{{Assigned To}}",
+        "Description": "Test Feature",
+        "Fields": [
+          "System.Tags=Test",
+          "Microsoft.VSTS.Common.AcceptanceCriteria=All test cases provided by the child PBI scenarios are successfully tested."
+        ]
+
+      }
+    },
+    {
+      "Id": "008fca76-37d0-47fc-bc86-35270c3e7acf",
+      "WorkItem": {
+        "Title": "🏗 Test PBI 2024-10-25",
+        "Type": "ProductBacklogItem",
+        "TeamProject": "GMFinancial",
+        "AreaPath": "GMFinancial\\Insurance-OSI\\OSI-Architecture",
+        "IterationPath": "GMFinancial\\OSI\\2024",
+        "AssignedTo": "{{Assigned To}}",
+        "Description": "Test PBI",
+        "Fields": [
+          "System.Tags=Test",
+          "Microsoft.VSTS.Common.AcceptanceCriteria=All test cases provided by the child PBI scenarios are successfully tested."
+        ]
+      }
+    },
+    {
+      "Id": "a3181f1d-4132-4781-9efd-df56a34976a2",
+      "WorkItem": {
+        "Title": "🏗 Test Epic 2024-10-25",
+        "Type": "Epic",
+        "TeamProject": "GMFinancial",
+        "AreaPath": "GMFinancial\\Insurance-OSI\\OSI-Architecture",
+        "IterationPath": "GMFinancial\\OSI\\2024",
+        "AssignedTo": "{{Assigned To}}",
+        "Description": "<p><strong><u>Name</u></strong>: Test Epic </p><p><strong><u>Description</u></strong>:<br>Do the thing. </p><p><strong><u>Objectives</u></strong>: </p><ul><li>Make money. </li><li>Get paid. </li> </ul>",
+        "Fields": [
+          "System.Tags=Test",
+          "Microsoft.VSTS.Common.AcceptanceCriteria=All test cases provided by the child PBI scenarios are successfully tested."
+        ]
+      }
+  }
+  ],
+  "WorkItemTree": [
+    {
+      "InstanceId": "4ea7fa1c-0408-4dfd-aaeb-888e6b257512",
+      "WorkItemTemplateId": "a3181f1d-4132-4781-9efd-df56a34976a2",
+      "ChildInstanceIds": [
+        "2d6109fe-a86e-4996-a4b2-870575d97738",
+        "a7075f75-6cf0-452f-8a95-422dd81fe156"
+      ]
+    },
+    {
+      "InstanceId": "2d6109fe-a86e-4996-a4b2-870575d97738",
+      "WorkItemTemplateId": "3eb8649c-8ed3-44cc-8e45-167d1e7545ea",
+      "ChildInstanceIds": [
+        "201efe77-d26b-4e2e-b45d-99d30684f739"
+      ]
+    },
+    {
+      "InstanceId": "a7075f75-6cf0-452f-8a95-422dd81fe156",
+      "WorkItemTemplateId": "3eb8649c-8ed3-44cc-8e45-167d1e7545ea",
+      "ChildInstanceIds": [
+        "6da1c2d2-507c-46c8-a89a-f6a71ce2e24c",
+        "0d39342c-b8a9-4509-8368-b840334d4586"
+      ]
+    },
+    {
+      "InstanceId": "201efe77-d26b-4e2e-b45d-99d30684f739",
+      "WorkItemTemplateId": "008fca76-37d0-47fc-bc86-35270c3e7acf"
+    },
+    {
+      "InstanceId": "6da1c2d2-507c-46c8-a89a-f6a71ce2e24c",
+      "WorkItemTemplateId": "008fca76-37d0-47fc-bc86-35270c3e7acf"
+    },
+    {
+      "InstanceId": "0d39342c-b8a9-4509-8368-b840334d4586",
+      "WorkItemTemplateId": "008fca76-37d0-47fc-bc86-35270c3e7acf"
+    }
+  ],
+  "WorkItemLinks": [
+    {
+      "ProjectUrl": "https://dev.azure.com/GMFinancial/GMFinancial",
+      "SourceInstanceId": "4ea7fa1c-0408-4dfd-aaeb-888e6b257512",
+      "TargetInstanceId": "2d6109fe-a86e-4996-a4b2-870575d97738",
+      "LinkType": "Child",
+      "LinkComment": "Testing out the scaffolding"
+    },
+    {
+      "ProjectUrl": "https://dev.azure.com/GMFinancial/GMFinancial",
+      "SourceInstanceId": "4ea7fa1c-0408-4dfd-aaeb-888e6b257512",
+      "TargetInstanceId": "a7075f75-6cf0-452f-8a95-422dd81fe156",
+      "LinkType": "Child",
+      "LinkComment": "Testing out the scaffolding"
+    },
+    {
+      "ProjectUrl": "https://dev.azure.com/GMFinancial/GMFinancial",
+      "SourceInstanceId": "2d6109fe-a86e-4996-a4b2-870575d97738",
+      "TargetInstanceId": "201efe77-d26b-4e2e-b45d-99d30684f739",
+      "LinkType": "Child",
+      "LinkComment": "Testing out the scaffolding"
+    },
+    {
+      "ProjectUrl": "https://dev.azure.com/GMFinancial/GMFinancial",
+      "SourceInstanceId": "a7075f75-6cf0-452f-8a95-422dd81fe156",
+      "TargetInstanceId": "6da1c2d2-507c-46c8-a89a-f6a71ce2e24c",
+      "LinkType": "Child",
+      "LinkComment": "Testing out the scaffolding"
+    },
+    {
+      "ProjectUrl": "https://dev.azure.com/GMFinancial/GMFinancial",
+      "SourceInstanceId": "a7075f75-6cf0-452f-8a95-422dd81fe156",
+      "TargetInstanceId": "0d39342c-b8a9-4509-8368-b840334d4586",
+      "LinkType": "Child",
+      "LinkComment": "Testing out the scaffolding"
+    }
+  ]
+}
